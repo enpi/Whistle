@@ -78,7 +78,8 @@ public class MainActivity extends AppCompatActivity {
         switch (requestCode) {
             case REQUEST_MICROPHONE: {
                 if (grantResults.length == 0 || grantResults[0] != PackageManager.PERMISSION_GRANTED) {
-                    Toast.makeText(this, "Si no acepta los permisos no funcionará", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Si no acepta los permisos no funcionará!", Toast.LENGTH_SHORT).show();
+                    toggleButton.toggleOff();
                 } else {
                     startService(new Intent(this, WhistleService.class));
                 }
