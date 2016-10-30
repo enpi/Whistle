@@ -46,7 +46,7 @@ public class WhistleService extends Service implements DetectorThread.OnWhistleL
 
         startWhistleDetection();
 
-        return super.onStartCommand(intent, flags, startId);
+        return START_STICKY;
     }
 
     private void startWhistleDetection() {
@@ -112,7 +112,7 @@ public class WhistleService extends Service implements DetectorThread.OnWhistleL
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.whistle)
                 .setContentTitle("Whistle Controller")
-                .setContentText("Hey!")
+                .setContentText(getText(R.string.info_message))
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)
                 .setContentIntent(pendingIntent);

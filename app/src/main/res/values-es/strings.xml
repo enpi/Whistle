@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alert_sound_permission" translatable="false">El servicio no funcionará si no acepta los permisos correspondientes.</string>
+    <string name="info_message">Para comenzar a usar el servicio active el botón de switch.\nSilbe y si el dispositivo no está en modo silencio emitirá un sonido.</string>
+</resources>
