@@ -27,8 +27,8 @@
         android:layout_width="90dp"
         android:layout_height="40dp"
         android:id="@+id/toggleButton"
-        toggle:tbOnColor="@color/colorAccent"
-        toggle:tbSpotColor="@color/colorPrimary"
+        toggle:tbOnColor="@color/colorPrimary"
+        toggle:tbSpotColor="@color/colorPrimaryDark"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 

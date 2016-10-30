@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
                 .fadeinTextDuration(400)
                 .headingTvColor(Color.parseColor("#eb273f"))
                 .headingTvSize(28)
-                .headingTvText("Whistle\nController")
+                .headingTvText(getString(R.string.app_name))
                 .subHeadingTvColor(Color.parseColor("#ffffff"))
                 .subHeadingTvSize(16)
                 .subHeadingTvText(getString(R.string.info_message))

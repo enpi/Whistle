@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Whistle Controller</string>
+    <string name="app_name" translatable="false">Whistle Phone Finder</string>
     <string name="alert_sound_permission">The service will not work if you do not accept the permission.</string>
-    <string name="info_message">To start using the service activate the switch button.\nJust whitle and if your phone is not in silent mode it will play a sound.</string>
+    <string name="info_message">To start using the service activate the switch button.\nJust whistle and if your phone is not in silent mode it will play a sound.</string>
 </resources>
